@@ -1,0 +1,22 @@
+.sidebar{
+    flex: 0.2;
+    color: gray;
+    background-color:lightskyblue;
+    height:100vh ;
+    display: flex;
+    flex-direction: column;
+    /* position: relative; */
+    width: fit-content;
+    position: fixed;
+    
+}
+.sidebar{
+    overflow: scroll;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+.sidebar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
